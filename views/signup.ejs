@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="css/singup.css">
+      <title>TODO APP</title>
+</head>
+<body>    
+
+
+    <!--**************************  Signup-Form  **************************-->
+
+ 
+    <form action="/signup" method="POST">
+    <div class="form">
+        <h3 class="title">Let's Get <br> <span>Started</span></h3>
+        <i class="material-icons" style="color: white;">
+            account_circle
+        </i>
+        <div class="content">
+            <div>
+                <input class="input" type="text" placeholder="Full Name" id="name" name="name" required></input>
+                <!--<label>Full Name</label>-->
+            </div>
+            <div>
+                <input class="input" type="email" placeholder="Email" id="email" name="email" required></input>
+                <!--<label>Email</label>-->
+            </div>
+            <div>
+                <input class="input" type="password" placeholder="Password" id="password" name="password" required></input>
+                <!--<label>Password</label>-->
+            </div>
+        <div><button type="submit" class="button">SIGN UP</button></div>
+        <p class="aha">Already have an account? <span><a href="/login"> Sign In</a></span></p>
+        </div>
+    </div>
+
+</form>
+
+
+    
+</body>
+</html>

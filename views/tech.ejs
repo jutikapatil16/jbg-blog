@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Blog JBG</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="log_pp.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+
+  <style>
+    .navbar.navbar-expand-lg.bg-dark.navbar-dark {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navbar {
+      background-color: black;
+    }
+
+
+    .heading {
+      margin: 0 60px;
+      padding: 20px 0;
+    }
+
+    .checked {
+
+      color: rgb(253, 236, 0);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+
+  <!-- Navbar -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#">JBG</a>
+
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <!-- Link -->
+          <li class="nav-item">
+            <a class="nav-link" href="./">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./upgrade">Upgrade Now</a>
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="#"></a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              Explore
+            </a>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#tech">Technologies</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#lifestyle">Lifestyle</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#travel">Travel</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#contacts">Contact US</a>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <form class=" col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+          </form>
+
+
+        </div>
+        <div class="text-end">
+          <button type="button" class="btn btn-warning"><a style="color:white;" href="/login">Login / Sign Up</a></button>
+          <!-- <button type="button" class="btn btn-warning">Sign-up</button> -->
+        </div>
+
+
+      </div>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!--my edits start-->
+
+  <div class="container mt-3 mb-3">
+    <div class="h1">
+      <p>Beginner’s Guide to Computer Vision   </p>
+    </div>
+    <div class="row mb-2">
+      <div class="col-sm-1">
+        <img src="https://mdbootstrap.com/wp-content/uploads/2020/06/vertical.jpg" alt="..." height="35px" width="35px"
+          class="rounded-circle" />
+      </div>
+      <div class="col-sm-8">
+        <p>By Sharon Gomez <span class="text-muted">-January 06, 2021</span>
+          <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="col-sm-12">
+
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        </p>
+      </div>
+    </div>
+    <div class="card bg-dark">
+      <img src="img/tech1.jpg" class="card-img "  alt="..." style="max-height: 450px;"/>
+    </div>
+    <!--hellolol-->
+    <div class="container mt-3 mb-3">
+      <h5 class="text-muted">
+        <p>The phenomenon that makes machines such as computers or mobile phones see the surroundings is known as Computer Vision. Serious work on re-creating a human eye started way back in 50s and since then, we have come a long way. Computer vision has already made its way to our mobile phone via different e-commerce or camera apps.
+        Think of what more can be done by machine when they will be able to see as accurate as a human eye. Human eye is a complex structure and it goes through more complex phenomenon of understanding the environment. In a similar fashion, making machines see things and make them capable enough to figure out what they are seeing and further categorize it, is still a pretty tough job.
+        Working on Computer Vision is equivalent to working on millions of calculations in the blink of an eye with almost same accuracy as that of a human eye. It is not just about converting a picture into pixels, and then try to make sense of what’s in the picture through those pixels, you will have to first understand the bigger picture of how to extract information from those pixels and understand what they represent.</p>
+        <p>
+        So, let’s understand how do machines see?</p>
+<p>A. Represent colors by numbers: In computer science, each color is represented by a specified HEX value. That is how machines are programmed to understand what colors the image pixels are made up. Whereas as humans we have an inherited knowledge to differ between the shades.</p>
+<p>B. Image Segmentation: Computers are made to identify similar group of colors and then segment the image i.e. distinguish the foreground from background. The technique of color gradient is used to find edges of different objects.</p>
+<p>C. Finding corners: After segmentation, images are then looked up for certain features, also known as corners. In simple words, algorithms search for lines that meet at an angle and cover a specific part of the image with one color shade. Features, also called corners are the building blocks which help to find more detailed information contained in the image.
+</p>
+<p>D. Find textures: Another important aspect to identify any image correctly is to determine the texture in the image. The difference in textures between two objects makes it easier for a machine to correctly categorize an object.</p>
+<p>E. Make a guess: After implementing the above steps, a machine needs to make a nearly-right guess and match the image with those present in the database. 
+</p>
+<p>F. Finally, see the bigger picture! At last, a machine sees the bigger and clear picture and checks if it was right identifying the one, as per the feeded algorithmic instructions. The accuracy has improved a lot in past years but still, machines make mistakes when asked to handle images with mixed objects.</p>
+
+
+<p>
+A list of must-read books include:<br>
+Introductory Level:<br>
+1. Computer Vision: Algorithms and Applications<br>
+2. Computer Vision : A Modern Approach By David A. Forsyth, Jean Ponce<br>
+3. Multiple View Geometry in Computer Vision By Richard Hartley, Andrew Zisserman<br>
+Advanced level — Towards Deep Learning<br>
+4. Michael Nielsen’s “Neural Networks and Deep Learning” online book; it’s a really great, gentle introduction: Neural networks and deep learning
+<br> 5. Deep Learning book by Ian Goodfellow, Yoshua Bengio, and Aaron Courville<br>
+</p>
+
+<p>What will happen when machines can sense your emotions?</p>
+<p>TED Talks to watch:</p>
+  <p>Fei-Fei Li: 
+    <br>1.How we’re teaching computers to understand pictures<br>
+2. Blaise Agüera y Arcas: How PhotoSynth can connect the world’s images<br>
+3. Chieko Asakawa: How new technology helps blind people explore the world<br>
+4. Jennifer Healey: If cars could talk, accidents might be avoidable<br>
+5. Golan Levin: Art that looks back at you<br>
+6. Paul Debevec: Animating a photo-real digital face<br>
+7. Golan Levin: Software (as) art<br>
+  </p>
+  <p>Online Courses to go for:<br>
+<p>Introductory Level:</p><br>
+<p>Udacity : Introduction to Computer Vision</p>
+<p>Stanford’s CS231n: Convolutional Neural Networks for Visual Recognition</p>
+  <p>University of Central Florida — Prof. Mubarak Shah’s Video lectures</p>
+  <p>Apply all your knowledge on concepts and algorithms gained from aforementioned resources to solve a few assignments and do a project on your own.</p>
+    <p>Advanced Level — Towards Deep Learning</p>
+      <p>Geoff Hinton’s Neural Net lectures on Coursera</p>
+<p>Stanford course: Deep Learning for Natural Language Processing</p>
+<p>Stanford course: Convolutional Neural Networks for Visual Recognition</p>
+<p>Seminar Courses:</p>
+<p>Deep Learning in Computer Vision (Prof. Sanja Fidler)</p>
+<p>Advanced Computer Vision (Prof. James Hays)</p>
+
+<p>k to their peers in other colleges and ask about what kind of projects they do.Then they can form a team with a leader and start experimenting. I’d also recommend participating in competitions and hackathons. It is highly important to find your interests and go with them instead of working in an area you don’t like. Computer Vision, for instance, is a great area with a huge scope of development in India as in this field, all you need is a camera which has started penetrating to even smaller cities now. So, the future of Computer Vision is definitely bright.</p>      </h5>
+</div>
+  </div>
+  <div>
+  </div>
+  </div>
+  <div class="container g-4">
+    <div class="row mb-4">
+      <div class="col-lg-5 col-md-12">
+        <button class="btn btn-primary" type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseExample"
+          aria-expanded="false" aria-controls="collapseExample">
+          Share
+        </button>
+        <!-- Collapsed content -->
+        <div class="collapse mt-3" id="collapseExample">
+
+
+          <div class="col-12">
+            <!-- Facebook -->
+            <a class="btn btn-primary" style="background-color: #3b5998;" href="#!" role="button"><i
+                class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button"><i
+                class="fab fa-twitter"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-primary" style="background-color: #ac2bac;" href="#!" role="button"><i
+                class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-primary" style="background-color: #0082ca;" href="#!" role="button"><i
+                class="fab fa-linkedin-in"></i></a>
+
+            <!-- Github -->
+
+
+            <!-- Whatsapp -->
+            <a class="btn btn-primary" style="background-color: #25d366;" href="#!" role="button"><i
+                class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="card mb-3 w-80" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-12">
+              <img src="/img/people2.jpg" alt="..." height="130px"
+                width="130px" class="rounded-circle" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Sharon Gomez</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure eum corporis quasi eligendi sit autem in quam maxime quaerat! Modi.
+                  <!-- Facebook --><br><br>
+                  <a style="color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f fa-lg"></i></a>
+
+                  <!-- Twitter -->
+                  <a style="color: #55acee;" href="#!" role="button"><i class="fab fa-twitter fa-lg"></i></a>
+
+                  <!-- Google -->
+                  <a style="color: #dd4b39;" href="#!" role="button"><i class="fab fa-google fa-lg"></i></a>
+
+                  <!-- Instagram -->
+                  <a style="color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram fa-lg"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-12 col-sm-12 mt-5">
+        <div class="d-flex justify-content-start mt-100 mb-100">
+          <div class="col-lg-11 col-md-auto">
+            <div class="card">
+              <div class="card-body text-center">
+                <h4 class="card-title">Latest Comments</h4>
+              </div>
+              <div class="comment-widgets">
+                <!-- Comment Row -->
+                <div class="d-flex flex-row comment-row m-t-0">
+                  <div class="p-2"><img src="https://i.imgur.com/Ur43esv.jpg" alt="user" width="50"
+                      class="rounded-circle"></div>
+                  <div class="comment-text w-100">
+                    <h6 class="font-medium">James Thomas</h6> <span class="m-b-15 d-block">This is awesome website. I
+                      would love to comeback again. </span>
+                    <div class="comment-footer"> <span class="text-muted float-right">April 14, 2019</span> </div>
+                  </div>
+                </div> <!-- Comment Row --><br><br>
+                <div class="d-flex flex-row comment-row">
+                  <div class="p-2"><img src="https://i.imgur.com/8RKXAIV.jpg" alt="user" width="50"
+                      class="rounded-circle"></div>
+                  <div class="comment-text active w-100">
+                    <h6 class="font-medium">Michael Hussey</h6> <span class="m-b-15 d-block">Thanks bbbootstrap.com for
+                      providing such useful snippets. </span>
+                    <div class="comment-footer"> <span class="text-muted float-right">May 10, 2019</span>  </div>
+                  </div>
+                </div>
+
+                <br>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+
+  </div>
+  <!--my edits end -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+            class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+            class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+            class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+            class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2">Email address</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-warning mb-4">
+                  Subscribe
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+      </div>
+      <!-- Grid container -->
+
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"></a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- End your project here-->
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>
