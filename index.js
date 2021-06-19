@@ -96,8 +96,8 @@ app.get("/", (req, res) => {
 
 }
 )
-app.get("/about", (req, res) => {
-  res.render("about.ejs")
+app.get("/About", (req, res) => {
+  res.render("About.ejs")
 
 }
 )
